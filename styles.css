@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --azul-misc: #167BF7;
+    --background: #00030C;
+    --fonte-principal: 'Inter';
+    --cinza-terciario: #C0C0C0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--branco-principal)
+}
+
+.principal {
+    background-image: url("./img/Background.png");
+    background-repeat: no-repeat;
+}
+
+.container__div {
+    margin-top: 125px;
+    margin-left: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+.container__imagem {
+    width: 50%
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 20% 20% 20%;
+}
+
+.container__titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 35px;
+    width: 550px;
+    text-align: center;
+}
+
+.textos {
+    font-family: var(--fonte-principal);
+}
+
+.container__botao {
+    background-color: var(--azul-misc);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 24px;
+    width: 300px;
+    width: 550px;
+    transition: 1s;
+}
+
+.botao_primario:hover {
+    background-color: #043f87;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: solid 1px var(--branco-principal);
+    transition: 1s;
+}
+
+.botao_secundario:hover {
+    background-color: #2e2e2e;
+}
+
+.container__aviso {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 14.52px;
+    color: var(--cinza-secundario);
+}
+
+.container__plataformas {
+    width: 80%;
+}
+
+.container__titulo2 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.container__subtitulo {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cinza-terciario);
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-left: 165px;
+    height: 100vh;
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-left: 165px;
+    height: 100vh;
+    gap: 70px;
+}
+
+.container__descricao {
+    color: var(--cinza-terciario);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.section4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-left: 165px;
+    height: 100vh;
+}
+
+.container__subtitulo2 {
+    color: var(--cinza-terciario);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.container__titulo3 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.section5 {
+    display: flex;
+    align-items: center;
+    margin-left: 165px;
+    height: 100vh;
+}
+
+.w {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.divp1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.divp2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.divp3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.w2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footertextos {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.footer__textos {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--branco-principal);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: 0.35s;
+}
+
+.footer__descricao {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    display: flex;
+    text-align: center;
+}
